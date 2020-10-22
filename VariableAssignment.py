@@ -1,5 +1,5 @@
 a = 'hello'
-print(a)
+print('Value of a is:', a)
 
 a = 10
 print(a)
