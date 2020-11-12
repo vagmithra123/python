@@ -23,3 +23,27 @@ for a,b,c in mylist:
 	print(a)
 	print(b)
 	print(c)
+
+
+#iterating through a dict
+d = {'k1':1, 'k2':2,'k3':3}
+
+for item in d:
+	print(item) 
+
+#to print all items
+for item in d.items():
+	print(item)
+
+#To print all tuples
+for key,value in d.items():
+	print(key)
+	print(value)
+
+#to print all values
+for value in d.values():
+	print(value)
+
+#to iterate through a string
+for _ in 'Hello World':
+	print('Cool!')
