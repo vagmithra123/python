@@ -16,3 +16,6 @@ def add_num(num1,num2):
 
 result = add_num(5,6)
 print(result)
+
+str = add_num('10','20')
+print(str)
