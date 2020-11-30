@@ -19,3 +19,15 @@ print(result)
 
 str = add_num('10','20')
 print(str)
+
+#check a single number is even
+
+def check_even(num):
+	if num%2 == 0:
+		return 'even'
+	else:
+		return 'odd'
+
+
+ans = check_even(24)
+print(ans)
